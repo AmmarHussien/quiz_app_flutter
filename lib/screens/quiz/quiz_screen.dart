@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:quiz_app_flutter/controller/question_controller.dart';
+import 'package:quiz_app_flutter/screens/score/score_screen.dart';
 
 import 'components/body.dart';
 

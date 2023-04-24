@@ -68,7 +68,7 @@ class Body extends StatelessWidget {
                 height: kDefaultPadding,
               ),
               Expanded(
-                flex: 3,
+                flex: 5,
                 child: PageView.builder(
                   physics: const NeverScrollableScrollPhysics(),
                   onPageChanged: questionController.updateTheQnNum,

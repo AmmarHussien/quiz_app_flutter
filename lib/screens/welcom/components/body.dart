@@ -14,6 +14,7 @@ class Body extends StatelessWidget {
       children: [
         WebsafeSvg.asset(
           'assets/icons/bg.svg',
+          fit: BoxFit.fill,
         ),
         SafeArea(
           child: Padding(

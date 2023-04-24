@@ -26,7 +26,7 @@ class QuestionController extends GetxController
             id: question['id'],
             question: question['question'],
             options: question['options'],
-            answer: question['answer_index']),
+            answer_index: question['answer_index']),
       )
       .toList();
   List<Question> get questions => _questions;
@@ -80,7 +80,7 @@ class QuestionController extends GetxController
   void checkAns(Question question, int selectedIndex) {
     // because once user press any option then it will run
     _isAnswered = true;
-    _correctAns = question.answer;
+    _correctAns = question.answer_index;
     _selectedAns = selectedIndex;
 
     if (_correctAns == _selectedAns) _numOfCorrectAns++;
