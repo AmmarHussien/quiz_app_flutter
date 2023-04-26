@@ -1,12 +1,12 @@
 class Question {
-  final int id, answer_index;
+  final int id, answerIndex;
   final String question;
   final List<String> options;
 
   Question({
     required this.id,
     required this.question,
-    required this.answer_index,
+    required this.answerIndex,
     required this.options,
   });
 }
